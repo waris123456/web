@@ -1,0 +1,59 @@
+/* Css code of Hero page - By Abdul Waris */
+.hero {
+    width: 70%;
+    padding: 20px;
+    color: #222;
+}
+
+.myImg {
+    border-radius: 50%;
+    display: inline;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.heroImg {
+    width: 100%;
+    display: inline;
+    border-radius: 4px;
+    margin: 20px 0px;
+}
+
+.hero h1 {
+    font-size: 54px;
+    display: block;
+    margin: 20px;
+    text-align: left;
+}
+
+.hero p {
+    font-size: 20px;
+    margin: 20px;
+    width: 700px;
+    width: fit-content;
+    text-align: left;
+}
+
+.bio {
+    display: flex;
+    justify-content: center;
+}
+
+.pfLinks {
+    float: left;
+    margin-left: 15px;
+}
+
+
+/* Code For Responsiveness */
+@media (max-width:955px) {
+    .myImg {
+        display: none;
+    }
+
+    .hero h1,
+    .hero p,
+    .pfLinks {
+        margin: 10px 0px;
+    }
+}

@@ -1,0 +1,40 @@
+.title {
+    margin: 35px;
+    font-size: 45px;
+    color: #222;
+}
+
+.blog {
+    background-color: white;
+    margin: 35px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 60%;
+    color: #222;
+}
+
+.blog h2 {
+    font-size: 39px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    width: auto;
+    font-size: 24px;    
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+h6 {
+    font-size: 19px;
+}
+
+.a {
+    background-color: #222;
+    color: white;
+    border-radius: 9px;
+    border: none;
+    margin: 10px 0px;
+    padding: 15px;
+}

@@ -1,0 +1,98 @@
+.skills-container {
+    width: 2160px;
+    margin-left: 160px;
+    text-align: center;
+    float: left;
+}
+
+.myCv {
+
+    width: 40px;
+}
+
+.skill {
+    display: block;
+    width: 50%;
+    margin: 10px;
+}
+
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #e0e0e0;
+}
+
+.skill-fill {
+    height: 100%;
+    border-radius: 2px;
+    background-color: #222;
+}
+
+.prof {
+    margin: 20px 20px;
+    width: 1360px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.prof h2 {
+    margin: 5px;
+    margin-left: 100px;
+    float: left;
+}
+
+.prof img {
+    width: 550px;
+    float: right;
+    border-radius: 6px;
+}
+
+.cV {
+    margin-top: 20px;
+}
+
+.CVDiv {
+    justify-content: center;
+    align-items: center;
+}
+
+.CVDiv a {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.426);
+    color: white;
+    padding: 10px;
+}
+
+.CVDiv a:hover {
+    background-color: rgba(0, 0, 0, 0.794);
+    transition-duration: 0.3s;
+}
+
+@media (max-width:1238px) {
+    .skills-container {
+        width: 149%;
+    }
+
+    .prof {
+        flex-wrap: nowrap;
+        height: auto;
+        margin: 0px 30%;
+    }
+
+    .prof img {
+        margin: 10px;
+    }
+}
+
+@media (max-width:430px) {
+    .prof {
+        margin: auto;
+    }
+}

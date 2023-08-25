@@ -1,0 +1,14 @@
+.title, h2, p {
+    margin: 30px 30px 0px 30px;
+    font-size: 45px;
+    color: #222;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}

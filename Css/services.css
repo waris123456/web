@@ -1,0 +1,19 @@
+.title{
+    margin: 20px;    
+    font-size: 40px;
+    margin-left: 40px;
+}
+
+.sub-title {
+    margin: 25px;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+.text {
+    margin: 30px;
+    font-size: 23px;
+    width: 80%;
+    margin-left: 60px;
+}

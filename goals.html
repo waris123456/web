@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Waris - Front End Dev</title>
+    <link rel="shortcut icon" href="./Images/myImage.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="./Css/common.css">
+    <link rel="stylesheet" href="./Css/goals.css">
+</head>
+
+<body>
+    <nav class="navbar" id="nav">
+        <img src="./Images/myImage.jpg" alt="myImage">
+        <h1>Abdul Waris</h1>
+
+        <ul>
+            <li><a href="./profile.html">Profile</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./goals.html">Future Goals</a></li>
+            <li><a href="./contact.html">Contact me</a></li>
+            <button class="btn navBtn" id="navBtn"><a href="">Back Home</a></button>
+        </ul>
+
+
+        <div class="resBtn" id="resBtn" onclick="toggleNav()">
+            <div class="rebtnspan"></div>
+            <div class="rebtnspan"></div>
+            <div class="rebtnspan"></div>
+        </div>
+
+
+        <div class="resNav" id="resNav">
+            <li><a href="./profile.html">Profile</a></li>
+            <li><a href="./services.html">Services</a></li>
+            <li><a href="./blog.html">Blog</a></li>
+            <li><a href="./goals.html">Future Goals</a></li>
+            <li><a href="./contact.html">Contact me</a></li>
+            <button class="btn navBtn resNavli" id="navBtn" onclick="window.open('./index.html', '_self')">Back
+                Home</button>
+        </div>
+
+    </nav>
+
+    <h1 class="title">My Future Goals</h1>
+    <h2>Becoming a MERN stack developer</h2>
+    <p>Becoming a MERN stack developer is one of my future goals. I am a frontend developer already being able to design proficent web pages in HTML, CSS, JavaScript, WordPress, Tailwind CSS, and Bootstrap CSS</p>
+
+    <script src="./Js/jquery-3.6.4.js"></script>
+    <script src="./Js/common.js"></script>
+</body>
+
+</html>
